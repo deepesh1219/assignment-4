@@ -1,0 +1,134 @@
+
+Modern HTML Assignment
+
+1.List out of the features of HTML-5?
+Ans. a.HTML5  introduced a set of semantic elements like <header>,<footer>,<nav>,<article>,<section>,<aside>.
+       these elements help structure web content more meaningfully.
+     b.HTML5 includes native support for embedding audio and video content.
+     c.the <canvas> element allows for dynamic rendering of graphics,charts and animations directly in the browser using JS.
+     d.HTML5 includes the Geolocation API allowing websites to access a user's location.
+
+
+2.   What are the HTML entities? List out the 5 commonly used HTML entities?
+Ans. HTML entities are special characters that have a reserved meaning in HTML. they are used to display characters that 
+     would otherwise be interepted as code or formatting by the browser.html entities start with an '&' and ends with ';'.
+     here re five commonly used HTML entities:
+Ans. a.'&alt;' - Less than sign('<')
+     b.'&gt;' - Greater than sign('>')
+     c.'&amp;'
+     d.'&copy;'
+     e.'&quot;'
+
+3.  Define accessibility in the context of web development.Discuss why it is essential to create accessible
+    website and how it benefits different users groups?
+Ans.Accessibility in the context of web development refers to the practice of designing and building websites in a way that ensures equal access and usability for all individuals.
+    the main goal is to make online content and services available to as many people as possile including those with disabilities.
+    Essential to create accessible websites and how it benefits different user groups:
+ a. Web accesibility ensures that people with disabilities can fully participate in the digital world.
+ b. Many countries have laws that require websites to be accessible.
+ c. Accessibility features ooften enhance the user experience for all users.
+ d.Search engines like Google, favor accessible websites because they are more user-friendly.
+
+4. List any 3 ways which helpS in improving the accessibility of HTML?
+Ans. 3 ways which help us in improving the accessibility of HTML are:
+ a.Semantic HTML: using semantic HTML elements like headings,lists,tables, and forms helps improve accessibbility by
+   providing structure and meaning to the content.
+ b.ARIA(accessible rich internet applications):ARIA is a set of attributes that can be added to HTML elementsb to enhance
+   their accessibility.
+ c.Alt Text for Images:Providing descriptive and meaningful altenative text(alt text) for images is crucial for 
+   accessibility.
+
+5. Create a web page that highlights the features of HTML. USe appropriate semantic tags to structre the
+   content and showcase at least three key features of HTML with explanation?
+Ans. <!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 features</title>
+</head>
+<body>
+    <header>
+        <h1>key features of HTML5</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#feature1">feature 1: semantic elements</a></li>
+            <li><a href="feature2">feature 2:video and audio support</a></li>
+            <li><a href="feature3">feature 3:canvas for graphics</a></li>
+        </ul>
+       </nav>
+       <main>
+        <section id="feature1">
+            <h2> feature 1-Semantic elements</h2>
+            <p>HTML5 intoduces a set of semantic elements like &lt;header&gt; , &lt;nav&gt; ,&lt;section&gt; , and &lt;footer&gt; that improves he structure and meaning of web content.</p>
+        </section>
+        <section id="feature2">
+            <h2>feature 2-video and audio support</h2>
+            <p>HTML5 provides native supportfor embedding video and audio without the need for third-partyplugins.this enhances multimedia capbilities</p>
+        </section>
+        <section id="feature3">
+            <h2>feature 3-canvas for graphics</h2>
+            <p>the &lt;canvas&gt; elements allows for dynamic rendering of graphics,making it ideal for creating interactive visualizations.</p>
+        </section></main>
+        <footer>
+            <p>&copy; 2023 HTML5</p>
+        </footer>
+</body>
+</html>
+
+6.Create a simple web page which had a table. the table must have 2 colmns HTML and HTML5. the table
+  should inclde a minimum of three rows describing the differences between HTML and HTML-5.
+Ans.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comparison</title>
+    <style>
+        table{
+            width:80%;
+            margin:20px auto;
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 1px solid #ccc;
+            padding:10px;
+            text-align: left;
+        }
+         th{
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1> HTML vs HTML5 comparison</h1>
+    <table>
+        <tr>
+            
+            <th>HTML</th>
+            <th>HTML5</th>
+        </tr>
+        <tr>
+           
+            <td>required third party plugins like flash</td>
+            <td>natively supports &lt;audio&gt; and &lt;video&gt; eleminating need for plugins</td>
+        </tr>
+        
+            <tr>
+            <td>did not have a canvas elements for graphics and animations.</td>
+            <td>itnroduce the &lt;canvas&gt; enabling dynamic rendering</td>
+        </tr>
+        <tr>
+            <td>did not support native geolocation support.</td>
+            <td>added the geolocation API to access a user's location directly from the browser</td>
+        </tr>
+        <tr>
+            <td>often required more complex code and scripting for common tasks</td>
+            <td>simplified development with new elements,APIs , and better support for multimedia</td>
+        </tr>
+    </table>
+</body>
+</html>
